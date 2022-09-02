@@ -38,17 +38,17 @@ public class Main {
 //        allOwnersAnimalsRelations.printAllAnimals(ownerIvan);
 //        allOwnersAnimalsRelations.printAllAnimals(ownerTamara);
 
-        allOwnersAnimalsRelations.makeASoundСommand(ownerIvan, Dog.class);
+        allOwnersAnimalsRelations.makeSoundСommand(ownerIvan, Dog.class);
         System.out.println();
-        allOwnersAnimalsRelations.makeASoundСommand(ownerIvan, List.of(Cat.class, Fish.class));
+        allOwnersAnimalsRelations.makeSoundСommand(ownerIvan, List.of(Cat.class, Fish.class));
 
-        allOwnersAnimalsRelations.makeAComeСommand(ownerIvan, List.of(Dog.class, Fish.class, Rabbit.class));
+        allOwnersAnimalsRelations.makeComeСommand(ownerIvan, List.of(Dog.class, Fish.class, Rabbit.class));
         System.out.println();
 
-        allOwnersAnimalsRelations.makeAComeСommand(ownerTamara, Rabbit.class, 3);
+        allOwnersAnimalsRelations.makeComeСommand(ownerTamara, Rabbit.class, 3);
         System.out.println();
-        allOwnersAnimalsRelations.makeAComeСommand(ownerIvan, catIvan, 7);
+        allOwnersAnimalsRelations.makeComeСommand(ownerIvan, catIvan, 7);
         System.out.println();
-        allOwnersAnimalsRelations.makeAComeСommand(ownerIvan, cat2Ivan);
+        allOwnersAnimalsRelations.makeComeСommand(ownerIvan, cat2Ivan);
     }
 }

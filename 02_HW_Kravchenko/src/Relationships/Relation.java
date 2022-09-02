@@ -47,14 +47,15 @@ public class Relation {
                 animalType;
     }
 
-    public void makeASoundСommand(Person person, Class<?> classType) {
+    public void makeSoundСommand(Person person, Class<?> classType) {
         int counter = 0;
-        System.out.println(person + " gives his(her) " + getAnimalType(classType) + "(s) a command \"Voice\"");
 
+        System.out.println(person + " gives his(her) " + getAnimalType(classType) + "(s) a command \"Voice\"");
         if (peopleAnimalsRelations.containsKey(person)) {
             for (Animal animal : peopleAnimalsRelations.get(person)) {
                 if (classType.isInstance(animal)) {
                     animal.performVoice();
+                    counter++;
                 }
             }
         }
@@ -63,14 +64,14 @@ public class Relation {
         }
     }
 
-    public void makeASoundСommand(Person person, List<Class<?>> classTypeList) {
+    public void makeSoundСommand(Person person, List<Class<?>> classTypeList) {
         for (var classType : classTypeList) {
-            makeASoundСommand(person, classType);
+            makeSoundСommand(person, classType);
             System.out.println();
         }
     }
 
-    public void makeAComeСommand(Person person, Class<?> classType, int times) {
+    public void makeComeСommand(Person person, Class<?> classType, int times) {
         int counter = 0;
 
         System.out.println(person + " gives his(her) " + getAnimalType(classType) + "(s) a command \"Come\" " + times + " times.");
@@ -87,18 +88,18 @@ public class Relation {
         }
     }
 
-    public void makeAComeСommand(Person person, Class<?> classType) {
-        makeAComeСommand(person, classType, 1);
+    public void makeComeСommand(Person person, Class<?> classType) {
+        makeComeСommand(person, classType, 1);
     }
 
-    public void makeAComeСommand(Person person, List<Class<?>> classTypeList) {
+    public void makeComeСommand(Person person, List<Class<?>> classTypeList) {
         for (var classType : classTypeList) {
-            makeAComeСommand(person, classType);
+            makeComeСommand(person, classType);
             System.out.println();
         }
     }
 
-    public void makeAComeСommand(Person person, Animal animalType, int times) {
+    public void makeComeСommand(Person person, Animal animalType, int times) {
         int counter = 0;
 
         System.out.println(person + " gives his(her) " + getAnimalType(animalType.getClass()) + " " + animalType.getNickname() + " a command \"Come\" " + times + " times.");
@@ -115,7 +116,7 @@ public class Relation {
         }
     }
 
-    public void makeAComeСommand(Person person, Animal animalType) {
-        makeAComeСommand(person, animalType, 1);
+    public void makeComeСommand(Person person, Animal animalType) {
+        makeComeСommand(person, animalType, 1);
     }
 }
