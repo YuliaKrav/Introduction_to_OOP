@@ -25,10 +25,11 @@ public abstract class Animal {
     }
 
     private String getAnimalType() {
-        String animalType = this.getClass().getTypeName().toLowerCase();
-        return animalType.contains(".") ?
-                animalType.substring(animalType.lastIndexOf(".") + 1) :
-                animalType;
+        return  this.getClass().getSimpleName().toLowerCase();
+//        String animalType = this.getClass().getTypeName().toLowerCase();
+//        return animalType.contains(".") ?
+//                animalType.substring(animalType.lastIndexOf(".") + 1) :
+//                animalType;
     }
 
     public void performVoice() {
