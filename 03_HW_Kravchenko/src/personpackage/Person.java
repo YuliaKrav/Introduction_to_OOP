@@ -1,6 +1,6 @@
-package PersonPackage;
+package personpackage;
 
-import CabinetPackage.CabinetKey;
+import cabinetpackage.CabinetKey;
 
 import java.util.HashMap;
 import java.util.Map;

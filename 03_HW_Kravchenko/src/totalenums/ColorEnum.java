@@ -1,4 +1,4 @@
-package TotalEnums;
+package totalenums;
 
 public enum ColorEnum {
     PINK,

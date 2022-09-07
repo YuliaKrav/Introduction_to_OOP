@@ -1,8 +1,8 @@
-package ItemPackage;
+package itempackage;
 
 
-import PersonPackage.Person;
-import TotalEnums.ColorEnum;
+import personpackage.Person;
+import totalenums.ColorEnum;
 
 public class Item {
     private String name;

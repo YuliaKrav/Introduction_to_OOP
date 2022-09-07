@@ -1,8 +1,8 @@
-package CabinetServicePackage;
+package cabinetservicepackage;
 
-import CabinetPackage.Cabinet;
-import ItemPackage.Item;
-import PersonPackage.Person;
+import cabinetpackage.Cabinet;
+import itempackage.Item;
+import personpackage.Person;
 
 import java.util.List;
 
@@ -26,8 +26,12 @@ public class CabinetService implements CabinetServiceInterface {
 
     @Override
     public void close(Cabinet cabinet, Person person) {
-        cabinet.setOpenStatus(false);
-        System.out.println(person + " closes " + cabinet.printCabinetOpenClosePart() + " of the " + cabinet);
+        if (!cabinet.isOpenStatus()) {
+            System.out.println(cabinet + " is already close.");
+        } else {
+            cabinet.setOpenStatus(false);
+            System.out.println(person + " closes " + cabinet.printCabinetOpenClosePart() + " of the " + cabinet);
+        }
     }
 
     @Override

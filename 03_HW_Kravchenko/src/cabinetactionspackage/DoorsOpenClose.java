@@ -1,4 +1,4 @@
-package CabinetActionsPackage;
+package cabinetactionspackage;
 
 public class DoorsOpenClose implements CabinetOpenClosePartInterface {
     @Override

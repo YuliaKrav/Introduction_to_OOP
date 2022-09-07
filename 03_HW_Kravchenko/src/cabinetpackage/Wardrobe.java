@@ -1,8 +1,8 @@
-package CabinetPackage;
+package cabinetpackage;
 
-import CabinetActionsPackage.DoorsOpenClose;
-import TotalEnums.ColorEnum;
-import TotalEnums.SizeEnum;
+import cabinetactionspackage.DoorsOpenClose;
+import totalenums.ColorEnum;
+import totalenums.SizeEnum;
 
 public class Wardrobe extends Cabinet {
     public Wardrobe(ColorEnum color, SizeEnum size) {

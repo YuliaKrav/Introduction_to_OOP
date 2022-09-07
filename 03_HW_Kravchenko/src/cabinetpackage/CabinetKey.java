@@ -1,4 +1,4 @@
-package CabinetPackage;
+package cabinetpackage;
 
 import java.util.UUID;
 

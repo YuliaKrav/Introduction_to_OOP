@@ -1,8 +1,8 @@
-package CabinetServicePackage;
+package cabinetservicepackage;
 
-import CabinetPackage.Cabinet;
-import ItemPackage.Item;
-import PersonPackage.Person;
+import cabinetpackage.Cabinet;
+import itempackage.Item;
+import personpackage.Person;
 
 import java.util.List;
 

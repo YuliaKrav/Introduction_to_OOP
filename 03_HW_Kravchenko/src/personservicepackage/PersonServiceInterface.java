@@ -1,7 +1,7 @@
-package PersonServicePackage;
+package personservicepackage;
 
-import CabinetPackage.Cabinet;
-import PersonPackage.Person;
+import cabinetpackage.Cabinet;
+import personpackage.Person;
 
 public interface PersonServiceInterface {
     void givePersonKey(Person personFrom, Cabinet cabinet, Person personTo);

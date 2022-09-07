@@ -1,9 +1,21 @@
-package PersonServicePackage;
+package personservicepackage;
 
-import CabinetPackage.Cabinet;
-import PersonPackage.Person;
+import cabinetpackage.Cabinet;
+import cabinetservicepackage.CabinetService;
+import cabinetservicepackage.CabinetServiceInterface;
+import personpackage.Person;
 
 public class PersonService implements PersonServiceInterface {
+    CabinetServiceInterface cabinetService;
+
+    public PersonService() {
+        cabinetService = new CabinetService();
+    }
+
+    public CabinetServiceInterface getCabinetService() {
+        return cabinetService;
+    }
+
     @Override
     public void givePersonKey(Person personFrom, Cabinet cabinet, Person personTo) {
         if (personFrom.getWardrobeKeyMap().containsKey(cabinet.getKey())) {

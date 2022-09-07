@@ -1,4 +1,4 @@
-package CabinetActionsPackage;
+package cabinetactionspackage;
 
 public interface CabinetOpenClosePartInterface {
     String nameOpeningCabinetPart();

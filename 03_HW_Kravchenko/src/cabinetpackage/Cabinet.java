@@ -1,9 +1,9 @@
-package CabinetPackage;
+package cabinetpackage;
 
-import CabinetActionsPackage.CabinetOpenClosePartInterface;
-import ItemPackage.Item;
-import TotalEnums.ColorEnum;
-import TotalEnums.SizeEnum;
+import cabinetactionspackage.CabinetOpenClosePartInterface;
+import itempackage.Item;
+import totalenums.ColorEnum;
+import totalenums.SizeEnum;
 
 import java.util.ArrayList;
 import java.util.List;
