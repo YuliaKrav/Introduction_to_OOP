@@ -1,0 +1,57 @@
+[ {
+  "id" : 1,
+  "priority" : "HIGH",
+  "ownerName" : "Petr",
+  "dateDeadline" : [ 2022, 9, 15 ],
+  "dateAdded" : [ 2022, 9, 10 ],
+  "description" : "Description1"
+}, {
+  "id" : 2,
+  "priority" : "HIGH",
+  "ownerName" : "Vera",
+  "dateDeadline" : [ 2022, 9, 14 ],
+  "dateAdded" : [ 2022, 9, 10 ],
+  "description" : "Description2"
+}, {
+  "id" : 3,
+  "priority" : "URGENT",
+  "ownerName" : "Petr",
+  "dateDeadline" : [ 2022, 9, 11 ],
+  "dateAdded" : [ 2022, 9, 10 ],
+  "description" : "Description3"
+}, {
+  "id" : 4,
+  "priority" : "LOW",
+  "ownerName" : "Petr",
+  "dateDeadline" : [ 2022, 9, 20 ],
+  "dateAdded" : [ 2022, 9, 10 ],
+  "description" : "Description4"
+}, {
+  "id" : 5,
+  "priority" : "URGENT",
+  "ownerName" : "Vera",
+  "dateDeadline" : [ 2022, 9, 13 ],
+  "dateAdded" : [ 2022, 9, 10 ],
+  "description" : "Description5"
+}, {
+  "id" : 6,
+  "priority" : "LOW",
+  "ownerName" : "Petr",
+  "dateDeadline" : [ 2022, 10, 30 ],
+  "dateAdded" : [ 2022, 9, 10 ],
+  "description" : "Description6"
+}, {
+  "id" : 7,
+  "priority" : "MEDIUM",
+  "ownerName" : "Vera",
+  "dateDeadline" : [ 2022, 9, 17 ],
+  "dateAdded" : [ 2022, 9, 10 ],
+  "description" : "Description7"
+}, {
+  "id" : 8,
+  "priority" : "URGENT",
+  "ownerName" : "Petr",
+  "dateDeadline" : [ 2022, 9, 12 ],
+  "dateAdded" : [ 2022, 9, 10 ],
+  "description" : "Description8"
+} ]
